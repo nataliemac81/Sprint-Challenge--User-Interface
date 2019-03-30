@@ -104,15 +104,55 @@ header nav a {
   padding-top: 15px;
 }
 
+.main-content {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	align-content: center;
+	justify-content: space-between;
+}
 
+.main-content .text-section {
+	width: 336px;
+	margin-right: 50px;
+	margin-bottom: 30px;
+	padding: 20px auto;
+	border-bottom: 1px dashed black;
+}
 
+.main-content .text-section h3 {
+	margin-top: 10px;
+}
 
+.main-content .text-section p {
+	line-height: 1.5;
+}
 
+.main-content .text-section button {
+	margin: 20px 0;
+	background: white;
+  border: 2px solid black;
+  padding: 9px 25px;
+  border-radius: 7px;
+  font-size: 16px;
+}
 
+.bottom-content {
+	margin: 25px 10px;
+}
 
+footer {
+	background-color: black;
+	padding: 20px;
+}
 
+footer nav a {
+	color: white;
+	text-decoration: none;
+	font-size: 14px;
+	padding-right: 50px;
 
-
+}
 
 
 
